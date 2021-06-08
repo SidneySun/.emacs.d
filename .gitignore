@@ -1,0 +1,10 @@
+*~
+\#*\#
+/auto-save-list
+/.cache
+/custom.el
+/elpa
+/eshell
+/projectile-bookmarks.eld
+/recentf
+/transient
