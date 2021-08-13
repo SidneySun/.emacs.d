@@ -12,6 +12,8 @@
 ;; https://github.com/emacsorphanage/git-gutter/issues/143
 ;; The display-line-numbers-mode is available since Emacs 26.
 (add-hook 'c++-mode-hook 'display-line-numbers-mode)
+(add-hook 'java-mode-hook 'display-line-numbers-mode)
+(add-hook 'python-mode-hook 'display-line-numbers-mode)
 ;; (add-hook 'c++-mode-hook 'git-gutter-mode)
 
 ;; Jump to next/previous hunk

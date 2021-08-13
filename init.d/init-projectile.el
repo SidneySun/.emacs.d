@@ -1,4 +1,5 @@
 ;; https://github.com/bbatsov/projectile
+;; apt-get install silversearcher-ag
 (use-package ag)
 
 (use-package projectile
