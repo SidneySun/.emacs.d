@@ -1,4 +1,4 @@
-;; https://emacs-lsp.github.io/lsp-mode/
+;; https://emacs-lsp.github.io/lsp-mode/page/installation/
 ;; lsp-mode
 (use-package lsp-mode
   :init
@@ -23,5 +23,8 @@
 ;; optionally if you want to use debugger
 ;; (use-package dap-mode)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
+
+;; http://company-mode.github.io/
+(use-package company :config (global-company-mode t))
 
 (provide 'init-lsp-mode)

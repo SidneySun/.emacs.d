@@ -8,6 +8,6 @@
 (setq org-todo-keywords
       '((sequence "TODO(t)" "WAIT(w)" "|" "CANCEL(c)" "DONE(d)")))
 
-(setq org-agenda-files '("~/Documents/Notes.org"))
+(setq org-agenda-files '("~/documents/Notes.org"))
 
 (provide 'init-org)
