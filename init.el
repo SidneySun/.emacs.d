@@ -20,6 +20,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/init.d")
 (require 'browse-url)
+(require 'init-clang-format)
+(require 'init-cmake)
 (require 'init-evil)
 (require 'init-git-gutter)
 (require 'init-ivy)
@@ -28,9 +30,11 @@
 (require 'init-org)
 ;; apt install silversearcher-ag
 (require 'init-projectile)
-(require 'init-style)
+;; (require 'init-style)
+(require 'init-rainbow-delimiters)
 (require 'init-theme)
 (require 'init-treemacs)
+(require 'init-typescript)
 ;; apt install cmake libtool libtool-bin
 ;; cmake >= 3.11
 (require 'init-vterm)
